@@ -381,7 +381,7 @@ $ ./calc
 
 ## 2. 实验要求
 
-本次实验需要各位同学首先将自己的 lab1 的词法部分复制到 `/src/parser` 目录的 [lexical\_analyzer.l]../../src/parser/lexical\_analyzer.l)并合理修改相应部分，然后根据 `cminus-f` 的语法补全 [syntax\_analyer.y]../../src/parser/syntax_analyzer.y) 文件，完成语法分析器，要求最终能够输出解析树。如：
+本次实验需要各位同学首先将自己的 lab1 的词法部分复制到 `/src/parser` 目录的 [lexical\_analyzer.l](../../src/parser/lexical\_analyzer.l)并合理修改相应部分，然后根据 `cminus-f` 的语法补全 [syntax\_analyer.y](../../src/parser/syntax_analyzer.y) 文件，完成语法分析器，要求最终能够输出解析树。如：
 
 输入：
 
