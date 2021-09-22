@@ -381,7 +381,7 @@ $ ./calc
 
 ## 2. 实验要求
 
-本次实验需要各位同学首先将自己的 lab1 的词法部分复制到 `/src/parser` 目录的 [lexical\_analyzer.l](./src/parser/lexical\_analyzer.l)并合理修改相应部分，然后根据 `cminus-f` 的语法补全 [syntax\_analyer.y](./src/parser/syntax_analyzer.y) 文件，完成语法分析器，要求最终能够输出解析树。如：
+本次实验需要各位同学首先将自己的 lab1 的词法部分复制到 `/src/parser` 目录的 [lexical\_analyzer.l]../../src/parser/lexical\_analyzer.l)并合理修改相应部分，然后根据 `cminus-f` 的语法补全 [syntax\_analyer.y]../../src/parser/syntax_analyzer.y) 文件，完成语法分析器，要求最终能够输出解析树。如：
 
 输入：
 
@@ -544,7 +544,7 @@ float foo(void) { return 1.0; }
     * 需要完善 `./src/parser/syntax_analyzer.y` 文件;
     * 需要在 `./Report/lab2/report.md` 撰写实验报告。
       * 实验报告内容包括:
-        * 实验要求、实验难点、实验设计、实验结果验证、实验反馈(具体参考[report.md](./Reports/lab2/report.md));
+        * 实验要求、实验难点、实验设计、实验结果验证、实验反馈(具体参考[report.md](../../Reports/lab2/report.md));
         * 实验报告不参与评分标准，但是必须完成并提交.
     * 本次实验收取 `./src/parser/lexical_analyzer.l` 文件、`./src/parser/syntax_analyzer.y` 文件和 `./Report/lab2` 目录
 

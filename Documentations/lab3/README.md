@@ -29,13 +29,13 @@
 1. 第一部分: 了解LLVM IR。通过clang生成的.ll，了解LLVM IR与c代码的对应关系。完成1.3
 2. 第二部分: 了解LightIR。通过助教提供的c++例子，了解LightIR的c++接口及实现。完成2.3
 3. 第三部分: 理解Visitor Pattern。
-4. 实验报告：在[report.md](./Reports/lab3/report.md)中**回答3个问题**。
+4. 实验报告：在[report.md](../../Reports/lab3/report.md)中**回答3个问题**。
 
 ## 1. LLVM IR部分
 ### 1.1 LLVM IR介绍
 根据[维基百科](https://zh.wikipedia.org/zh-cn/LLVM)的介绍，LLVM是一个自由软件项目，它是一种编译器基础设施，以C++写成，包含一系列模块化的编译器组件和工具链，用来开发编译器前端和后端。IR的全称是Intermediate Representation，即中间表示。LLVM IR是一种类似于汇编的底层语言。  
 LLVM IR的具体指令可以参考[Reference Manual](http://llvm.org/docs/LangRef.html)。但是你会发现其内容庞杂。虽然助教认为，高效地查阅官方文档及手册是非常必要的一项技能，但是由于其手册过于复杂，因此助教筛选了后续实验中将要用到的子集，总结为了[精简的IR Reference手册](../common/LightIR.md)。  
-作为一开始的参考，你可以先阅读其中`IR Features`和`IR Format`两节，后续有需要再反复参考。实验的最后，你需要在[report.md](./Reports/lab3/report.md)中**回答问题3**。  
+作为一开始的参考，你可以先阅读其中`IR Features`和`IR Format`两节，后续有需要再反复参考。实验的最后，你需要在[report.md](../../Reports/lab3/report.md)中**回答问题3**。  
 
 ### 1.2 gcd例子: 利用clang生成的.ll
 阅读[tests/lab3/ta_gcd/gcd_array.c](../../tests/lab3/ta_gcd/gcd_array.c)。  
@@ -62,7 +62,7 @@ lab4部分会要求大家通过`LightIR`根据`AST`构建生成LLVM IR。所以�
 该程序的编译与运行请参考4.2节。
 
 ### 2.3 你的提交2: 利用LightIR + cpp编写生成.ll的程序
-你需要在`tests/lab3/stu_cpp/`目录中，编写[assign_generator.cpp](../../tests/lab3/stu_cpp/assign_generator.cpp)、[fun_generator.cpp](../../tests/lab3/stu_cpp/fun_generator.cpp)、[if_generator.cpp](../../tests/lab3/stu_cpp/if_generator.cpp)和[while_generator.cpp](../../tests/lab3/stu_cpp/while_generator.cpp)，以生成与1.3节的四个C程序相同逻辑功能的`.ll`文件。你需要添加必要的注释。你需要在[report.md](./Reports/lab3/report.md)中**回答问题1**。
+你需要在`tests/lab3/stu_cpp/`目录中，编写[assign_generator.cpp](../../tests/lab3/stu_cpp/assign_generator.cpp)、[fun_generator.cpp](../../tests/lab3/stu_cpp/fun_generator.cpp)、[if_generator.cpp](../../tests/lab3/stu_cpp/if_generator.cpp)和[while_generator.cpp](../../tests/lab3/stu_cpp/while_generator.cpp)，以生成与1.3节的四个C程序相同逻辑功能的`.ll`文件。你需要添加必要的注释。你需要在[report.md](../../Reports/lab3/report.md)中**回答问题1**。
 
 ## 3. Lab4的准备
 
@@ -71,7 +71,7 @@ Visitor Pattern(访问者模式)是一种在LLVM项目源码中被广泛使用�
 Visitor Pattern是为了解决**稳定的数据结构**和**易变的操作耦合问题**而产生的一种设计模式。解决方法就是在被访问的类里面加一个对外提供接待访问者的接口，其关键在于在数据基础类里面有一个方法接受访问者，将自身引用传入访问者。这里举一个应用实例来帮助理解访问者模式: 您在朋友家做客，您是访问者；朋友接受您的访问，您通过朋友的描述，然后对朋友的描述做出一个判断，这就是访问者模式。  
 有关 Visitor Pattern 的含义、模式和特点，有梯子的同学可参考[维基百科](https://en.wikipedia.org/wiki/Visitor_pattern#C++_example)。  
 下面的例子可以清晰地展示Visitor Pattern的运作方式。这是助教编写的计算表达式 `4 * 2 - 2 / 4 + 5` 结果的C++程序。  
-其中较为重要的一点原则在于，C++中对函数重载特性的支持。在代码`treeVisitor.visit(node)`中，根据`node`对象具体类型的不同，编译器会在`visit(AddSubNode& node)`、`visit(NumberNode& node)`、`visit(MulDivNode& node)`三者中，选择对应的实现进行调用。你需要理解下面这个例子中tree是如何被遍历的。请在[report.md](./Reports/lab3/report.md)中**回答问题2**。
+其中较为重要的一点原则在于，C++中对函数重载特性的支持。在代码`treeVisitor.visit(node)`中，根据`node`对象具体类型的不同，编译器会在`visit(AddSubNode& node)`、`visit(NumberNode& node)`、`visit(MulDivNode& node)`三者中，选择对应的实现进行调用。你需要理解下面这个例子中tree是如何被遍历的。请在[report.md](../../Reports/lab3/report.md)中**回答问题2**。
 
 <details>
   <summary>例子:简单的表达式计算 - visitor.cpp</summary>
@@ -272,7 +272,7 @@ $ g++ visitor.cpp -std=c++14; ./a.out
     * 需要完成 `./tests/lab3/stu_cpp`目录下的4个文件
     * 需要在 `./Report/lab3/` 目录下撰写实验报告
       * 实验报告内容包括:
-        * 实验要求、3个问题、实验难点、实验反馈(具体参考[report.md](./Reports/lab3/report.md))
+        * 实验要求、3个问题、实验难点、实验反馈(具体参考[report.md](../../Reports/lab3/report.md))
         * 本次实验报告**参与**评分标准.
     * 本次实验收取 `./tests/lab3/stu_ll` 目录、`./tests/lab3/stu_cpp` 目录和 `./Report/lab3` 目录
   

@@ -58,7 +58,7 @@
 
 `FLEX`是一个生成词法分析器的工具。利用`FLEX`，我们只需提供词法的正则表达式，就可自动生成对应的C代码。整个流程如下图：
 
-![](http://alumni.cs.ucr.edu/~lgao/teaching/Img/flex.jpg)
+![](../common/figs/flex.jpg)
 
 首先，`FLEX`从输入文件`*.lex`或者`stdio`读取词法扫描器的规范，从而生成C代码源文件`lex.yy.c`。然后，编译`lex.yy.c`并与`-lfl`库链接，以生成可执行的`a.out`。最后，`a.out`分析其输入流，将其转换为一系列token。
 
@@ -112,7 +112,7 @@ look, I find 2 words of 10 chars
 
 ## 1. 实验要求
 
-本次实验需要各位同学根据`cminux-f`的词法补全[lexical_analyer.l](./src/lexer/lexical_analyzer.l)文件，完成词法分析器，能够输出识别出的`token`，`type` ,`line(刚出现的行数)`，`pos_start(该行开始位置)`，`pos_end(结束的位置,不包含)`。如：
+本次实验需要各位同学根据`cminux-f`的词法补全[lexical_analyer.l](../../src/lexer/lexical_analyzer.l)文件，完成词法分析器，能够输出识别出的`token`，`type` ,`line(刚出现的行数)`，`pos_start(该行开始位置)`，`pos_end(结束的位置,不包含)`。如：
 
 文本输入：
 
@@ -127,11 +127,11 @@ int     280     1       2       5
 a       285     1       6       7
 ;       270     1       7       8
 ```
-**具体的需识别token参考[lexical_analyzer.h](./include/lexical_analyzer.h)**
+**具体的需识别token参考[lexical_analyzer.h](../../include/lexical_analyzer.h)**
 
 **特别说明对于部分token，我们只需要进行过滤，即只需被识别，但是不应该被输出到分析结果中。因为这些token对程序运行不起到任何作用。**
 
-> 注意，你所需修改的文件应仅有[lexical_analyer.l](./src/lexer/lexical_analyzer.l)。关于`FLEX`用法上文已经进行简短的介绍，更高阶的用法请参考百度、谷歌和官方说明。
+> 注意，你所需修改的文件应仅有[lexical_analyer.l]../../src/lexer/lexical_analyzer.l)。关于`FLEX`用法上文已经进行简短的介绍，更高阶的用法请参考百度、谷歌和官方说明。
 
 ### 1.1 目录结构
 
@@ -240,7 +240,7 @@ a       285     1       6       7
     * 需要在`./Report/lab1/report.md`撰写实验报告。
     
       * 实验报告内容包括:
-        * 实验要求、实验难点、实验设计、实验结果验证、实验反馈(具体参考[report.md](./Reports/lab1/report.md));
+        * 实验要求、实验难点、实验设计、实验结果验证、实验反馈(具体参考[report.md](../../Reports/lab1/report.md));
         * 实验报告不参与评分标准，但是必须完成并提交.
 
 
