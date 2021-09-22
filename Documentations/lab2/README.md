@@ -444,7 +444,7 @@ float foo(void) { return 1.0; }
 │   └── lab2
 │       ├── readings.md        <- 扩展阅读
 │       └── README.md          <- lab2实验文档说明（你在这里）
-├── READMD.md
+├── README.md
 ├── Reports
 │   ├── lab1
 │   └── lab2

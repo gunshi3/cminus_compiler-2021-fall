@@ -31,8 +31,8 @@
 ## 1. 实验框架
 
 本次实验使用了由C++编写的 LightIR 来生成 LLVM IR。为了便于大家进行实验，该框架自动完成了语法树到 C++ 上的抽象语法树的转换。
-我们可以使用[访问者模式](README.md)来设计抽象语法树
-中的算法。大家可以参考[打印抽象语法树的算法](README.md)，
+我们可以使用[访问者模式](https://gitee.com/IceyBlackTea/cminus_compiler-2021-fall/tree/master/Documentations/lab3#31-%E4%BA%86%E8%A7%A3visitor-pattern)来设计抽象语法树
+中的算法。大家可以参考[打印抽象语法树的算法](https://gitee.com/IceyBlackTea/cminus_compiler-2021-fall/blob/master/src/common/ast.cpp#L394-737)，
 以及运行 `test_ast` 来理解访问者模式下算法的执行流程。
 
 在`include/cminusf_builder.hpp`中，我还定义了一个用于存储作用域的类`Scope`。它的作用是辅助我们在遍历语法树时，管理不同作用域中的变量。它提供了以下接口：

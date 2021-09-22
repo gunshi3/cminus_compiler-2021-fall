@@ -37,6 +37,7 @@
     - [Type](#type)
     - [User](#user)
     - [Value](#value)
+    - [总结](#总结)
 
 ## IR
 
@@ -254,7 +255,7 @@
 
 ### 核心类概念图
 
-![image-20201109145323504](figs/image-20201109145323504.png)
+![light-ir-api](figs/light-ir-api.png)
 
 ### BasicBlock
 

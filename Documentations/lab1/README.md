@@ -143,7 +143,7 @@ a       285     1       6       7
 ├── Documentations
 │   └── lab1
 │       └── README.md  <- lab1实验文档说明
-├── READMD.md
+├── README.md
 ├── Reports
 │   └── lab1
 │       └── report.md  <- lab1所需提交的实验报告（你需要在此提交实验报告）
