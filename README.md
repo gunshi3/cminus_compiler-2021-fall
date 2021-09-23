@@ -18,6 +18,28 @@
 *   [lab5](./Documentations/lab5/README.md)
     *   DDL : 待定
 
+### git 的使用
+
+推荐同学们通过搜索引擎和相互交流学习掌握git这个工具。
+
+后续可能也会更新一些教程和文档。
+
+### 有关实验项目的疑问
+
+推荐在 issues 新建，并按照 markdown 格式进行编写。
+
+需要注明：
+
+`问题范围`：如 `lab 1`，`项目的同步`等
+
+`问题简述`： 问题的主要描述，如：实验代码运行时报错；必要时可提供截图
+
+`问题详细描述`：使用的平台，问题的触发方式，自己尝试的操作等；必要时可提供截图
+
+`其他信息`：其他可用的信息，例如：与个人有关，可以提供下联系方式（推荐邮箱，注意保护个人隐私）
+
+有其他问题也可以发送邮件至 shibc@hnu.edu.cn。
+
 ### FAQ: How to merge upstream remote branches
 
 In brief, you need another alias for upstream repository (we assume you are now in your local copy of forked repository on Gitlab):
