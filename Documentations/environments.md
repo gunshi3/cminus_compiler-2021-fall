@@ -29,7 +29,7 @@
 
 使用虚拟机需要确定计算机已经启用`VT (Intel)`或者`SVM (AMD)`，具体过程参考谷歌/百度。确认是否已开启，可通过任务管理器查看。
 
-![image-20200919011352842](../common/figs/env-1.png)
+![image-20200919011352842](./common/figs/env-1.png)
 
 
 #### 具体过程
@@ -41,15 +41,15 @@
   
 * step 3) 打开 VB (VirtualBox)，点击`新建`，点击`下一步`。
 
-  ![image-20200919103424031](../common/figs/env-2.png)
+  ![image-20200919103424031](./common/figs/env-2.png)
 
   随后在`虚拟磁盘`处选择助教提供的虚拟磁盘文件即可。
 
-  ![image-20200919103544870](../common/figs/env-3.png)
+  ![image-20200919103544870](./common/figs/env-3.png)
 
 * step 4) 启动登录即可。最终你将得到如下界面。
 
-  ![image-20200919103708405](../common/figs/env-4.png)
+  ![image-20200919103708405](./common/figs/env-4.png)
 
 
   通过以下验证信息即可登录进入系统。
@@ -57,7 +57,7 @@
   * password : cp
 
 
-  ![image-20200919103756838](../common/figs/env-5.png)
+  ![image-20200919103756838](./common/figs/env-5.png)
 
 #### 额外
 
