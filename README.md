@@ -2,6 +2,10 @@
 
 请 fork 此 `repo` 到自己的仓库下，随后在自己的仓库中完成实验，请确保自己的 `repo` 为 `Private` 。
 
+### 实验环境
+
+推荐使用 Linux 环境，可参考[环境配置](./Documentations/environments.md)。
+
 ### 目前已布置的实验:
 *   [lab1](./Documentations/lab1/README.md)
     *   DDL : 待定
