@@ -169,13 +169,16 @@ a       285     1       6       7
 * 编译
 
   ```shell
-  #进入workspace
+  # 进入workspace
   $ cd cminus_compiler-2021-fall
-  #创建build文件夹，配置编译环境
+  
+  # 创建build文件夹，配置编译环境
   $ mkdir build 
   $ cd build 
   $ cmake ../
-  #开始编译
+  
+  # 开始编译
+  # 如果你只需要编译lab 1，请使用 make lexer
   $ make
   ```
 
