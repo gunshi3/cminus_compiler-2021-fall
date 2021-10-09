@@ -8,7 +8,7 @@
 
 ### 目前已布置的实验:
 *   [lab1](./Documentations/lab1/README.md)
-    *   DDL : 待定
+    *   DDL : 2021年11月5日 23:59
 *   [lab2](./Documentations/lab2/README.md)
     *   DDL : 待定
 *   [lab3](./Documentations/lab3/README.md)
