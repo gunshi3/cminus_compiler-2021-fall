@@ -270,15 +270,6 @@ a       285     1       6       7
     * 邮件主题：lab1迟交-学号
     * 内容：包括迟交原因、最后版本commitID、迟交时间等
 
-  * 迟交分数
-
-    * x为迟交天数(对于`Soft Deadline`而言)，grade满分10 
-
-      ```
-      final_grade = grade, x = 0  
-      final_grade = grade * (0.9)^x, 0 < x <= 7  
-      final_grade = 0, x > 7
-      ```
 
 * 关于抄袭和雷同
 
