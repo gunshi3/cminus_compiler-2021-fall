@@ -20,11 +20,23 @@
 3. [自己搭建编译环境 （需要机器有足够的算力和存储空间）](#自己搭建和编译选项三)
 4. [探索性搭建](#探索性搭建选项四)
 
-新添加：
+**经HNU助教验证、推荐搭配：**
 
 [**Win 10 使用 WSL 「推荐」**](https://iceyblacktea.vercel.app/blog/install-wsl2) （应该是最方便的）
 
-Tips.安装LLVM可以直接在Linux下命令行输入 `sudo apt-get install llvm`
+**Tips.**安装LLVM可以直接在Linux下命令行输入 `sudo apt-get install llvm bison flex`
+
+安装完成后可以输入
+
+`flex --version`
+
+`bison --version`
+
+查看版本
+
+或者其他指令检查安装，请同学们自行探索~
+
+---
 
 ## 虚拟机镜像(选项一)
 
@@ -270,7 +282,7 @@ $ echo $? # $?得到的是上一个命令的返回结果
 
 ## 探索性搭建(选项四)
 
-以上三种方法都不是最优的方案，我们这里提供编译好的`llvm-releas_ubuntu2004_x86_64`包，供大家使用。欢迎同学们自行探索代价最小的环境搭建方案，发布`issue`进行分享。
+如果编译出现问题，我们这里提供编译好的`llvm-releas_ubuntu2004_x86_64`包，供大家使用。欢迎同学们自行探索代价最小的环境搭建方案，发布`issue`进行分享。
 
 * 链接：https://rec.ustc.edu.cn/share/8c7f8800-fa22-11ea-a228-89984d08d186
 * md5: `80a3629cb908db635731b72cce54bd3a`
