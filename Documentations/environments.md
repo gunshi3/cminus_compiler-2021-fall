@@ -26,7 +26,7 @@
 
 [**Win 10 使用 WSL 「推荐」**](https://iceyblacktea.vercel.app/blog/install-wsl2) （应该是最方便的）
 
-**Tips.**安装LLVM可以直接在Linux下命令行输入 `sudo apt-get install llvm bison flex`
+**Tips**.安装LLVM可以直接在Linux下命令行输入 `sudo apt-get install llvm bison flex`
 
 安装完成后可以输入
 
