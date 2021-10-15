@@ -6,6 +6,8 @@
 
 推荐使用 Linux 环境，可参考[环境配置](./Documentations/environments.md)。
 
+其他的具体搭建要求，可参考[实验操作指南](./%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E5%AE%9E%E9%AA%8Cgitee%E5%B9%B3%E5%8F%B0%E6%8C%87%E5%8D%97.md)
+
 ### 目前已布置的实验:
 *   [lab1](./Documentations/lab1/README.md)
     *   DDL : 2021年11月5日 23:59
