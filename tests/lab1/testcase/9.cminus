@@ -1,0 +1,27 @@
+/*made by yj*/
+
+   /*  **** *//* three space and more * in comment  */
+
+/*
+
+
+*/
+
+/* /asdasd*\*/
+
+void Void(){
+    int  a,b,c;
+    a=8; b=1;c=2;
+    if(a>=1){
+        if(a<c);
+        else{
+            b=a*c;
+            int arr[8] ;
+            int d=888888;
+        }
+        
+    }
+    while (c>b){
+        /**/
+    }
+}
