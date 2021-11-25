@@ -251,7 +251,7 @@ float foo(void) { return 1.0; }
 
   easy测试集：
 
-  ![easy](figs\easy.png)
+  ![easy](figs/easy.png)
 
   normal测试集：
 
