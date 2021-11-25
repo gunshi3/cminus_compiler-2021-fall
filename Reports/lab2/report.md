@@ -246,7 +246,8 @@ float foo(void) { return 1.0; }
 * 注意词法分析器中对识别`error`后返回值的处理。
 
 ## 实验结果验证
-* 原始测试样例  
+
+* 原始测试样例
 
   easy测试集：
 
@@ -256,18 +257,18 @@ float foo(void) { return 1.0; }
 
   ![normal](figs\normal.png)
 
-* 自己编写的测试样例 
+* 自己编写的测试样例  
+
   [array-expr.cminus](../../tests/lab2/mycase/array-expr.cminus)  
-  
-  [decl.cminus](../../tests/lab2/mycase/decl.cminus) 
+  [decl.cminus](../../tests/lab2/mycase/decl.cminus)  
   [empty-param.cminus](../../tests/lab2/mycase/empty-param.cminus)
   [func.cminus](../../tests/lab2/mycase/func.cminus)  
-  
   [id.cminus](../../tests/lab2/mycase/id.cminus)  
-  
   [local-decl.cminus](../../tests/lab2/mycase/local-decl.cminus)
-  [nested-func.cminus](../../tests/lab2/mycase/nested-func.cminus) 
-  [var-init.cminus](../../tests/lab2/mycase/var-init.cminus)  ![mycase](figs\mycase.png)
+  [nested-func.cminus](../../tests/lab2/mycase/nested-func.cminus)  
+  [var-init.cminus](../../tests/lab2/mycase/var-init.cminus)  
+
+  ![mycase](figs\mycase.png)
 
 ## 实验反馈
 
