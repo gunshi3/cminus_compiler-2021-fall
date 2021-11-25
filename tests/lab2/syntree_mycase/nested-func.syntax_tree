@@ -1,0 +1,74 @@
+>--+ program
+|  >--+ declaration-list
+|  |  >--+ declaration-list
+|  |  |  >--+ declaration
+|  |  |  |  >--+ fun-declaration
+|  |  |  |  |  >--+ type-specifier
+|  |  |  |  |  |  >--* int
+|  |  |  |  |  >--* main
+|  |  |  |  |  >--* (
+|  |  |  |  |  >--+ params
+|  |  |  |  |  |  >--* void
+|  |  |  |  |  >--* )
+|  |  |  |  |  >--+ compound-stmt
+|  |  |  |  |  |  >--* {
+|  |  |  |  |  |  >--+ local-declarations
+|  |  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  |  |  >--+ statement
+|  |  |  |  |  |  |  |  >--+ return-stmt
+|  |  |  |  |  |  |  |  |  >--* return
+|  |  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  |  >--+ simple-expression
+|  |  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ call
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* subfunc
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* (
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ args
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ arg-list
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ simple-expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ integer
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* 0
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* )
+|  |  |  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  |  >--* }
+|  |  >--+ declaration
+|  |  |  >--+ fun-declaration
+|  |  |  |  >--+ type-specifier
+|  |  |  |  |  >--* int
+|  |  |  |  >--* subfunc
+|  |  |  |  >--* (
+|  |  |  |  >--+ params
+|  |  |  |  |  >--+ param-list
+|  |  |  |  |  |  >--+ param
+|  |  |  |  |  |  |  >--+ type-specifier
+|  |  |  |  |  |  |  |  >--* int
+|  |  |  |  |  |  |  >--* a
+|  |  |  |  >--* )
+|  |  |  |  >--+ compound-stmt
+|  |  |  |  |  >--* {
+|  |  |  |  |  >--+ local-declarations
+|  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  |  >--+ statement
+|  |  |  |  |  |  |  >--+ return-stmt
+|  |  |  |  |  |  |  |  >--* return
+|  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  >--+ simple-expression
+|  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--+ integer
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* 0
+|  |  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  >--* }

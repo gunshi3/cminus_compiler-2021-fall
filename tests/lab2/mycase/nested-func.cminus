@@ -1,0 +1,9 @@
+int main(void)
+{
+	
+	return subfunc(0);
+}
+int subfunc(int a)
+	{
+		return 0;
+	}
