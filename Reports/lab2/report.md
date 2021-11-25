@@ -255,7 +255,7 @@ float foo(void) { return 1.0; }
 
   normal测试集：
 
-  ![normal](figs\normal.png)
+  ![normal](figs/normal.png)
 
 * 自己编写的测试样例  
 
@@ -268,7 +268,7 @@ float foo(void) { return 1.0; }
   [nested-func.cminus](../../tests/lab2/mycase/nested-func.cminus)  
   [var-init.cminus](../../tests/lab2/mycase/var-init.cminus)  
 
-  ![mycase](figs\mycase.png)
+  ![mycase](figs/mycase.png)
 
 ## 实验反馈
 
