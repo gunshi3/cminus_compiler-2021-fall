@@ -8,7 +8,7 @@
 
 ### 主要工作
 
-1. 阅读[cminus-f 的语义规则](https://gitee.com/gunshi3/cminus_compiler-2021-fall/blob/master/Documentations/common/cminusf.md)~~成为语言律师~~，我们将按照语义实现程度进行评分
+1. 阅读[cminus-f 的语义规则](https://gitee.com/gunshi3/cminus_compiler-2021-fall/blob/master/Documentations/common/cminusf.md)，我们将按照语义实现程度进行评分
 
 2. 阅读[LightIR 核心类介绍](https://gitee.com/gunshi3/cminus_compiler-2021-fall/blob/master/Documentations/common/LightIR.md)
 

@@ -179,11 +179,11 @@ a       285     1       6       7
 
 * 原始测试样例  
   [1.cminus](../../tests/lab1/testcase/1.cminus)  
-[2.cminus](../../tests/lab1/testcase/2.cminus)  
-[3.cminus](../../tests/lab1/testcase/3.cminus)  
-[4.cminus](../../tests/lab1/testcase/4.cminus)  
-[5.cminus](../../tests/lab1/testcase/5.cminus)  
-[6.cminus](../../tests/lab1/testcase/6.cminus)
+  [2.cminus](../../tests/lab1/testcase/2.cminus)  
+  [3.cminus](../../tests/lab1/testcase/3.cminus)  
+  [4.cminus](../../tests/lab1/testcase/4.cminus)  
+  [5.cminus](../../tests/lab1/testcase/5.cminus)  
+  [6.cminus](../../tests/lab1/testcase/6.cminus)
 
   ![1.cminus-6.cminus](figs/1.cminus-6.cminus.png)
 
